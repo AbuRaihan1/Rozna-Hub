@@ -28,18 +28,26 @@
 .signin-section .signin-content .signin-content-left .button-wrapper {
   margin-bottom: 30px;
 }
-.signin-section .signin-content .signin-content-left .button-wrapper .btn-signin {
+.signin-section
+  .signin-content
+  .signin-content-left
+  .button-wrapper
+  .btn-signin {
   width: 100%;
   padding: 21px;
-  color: #FFFFFF;
-  background-color: #1B253E;
-  border-bottom-color: #FFC300;
+  color: #ffffff;
+  background-color: #1b253e;
+  border-bottom-color: #ffc300;
   width: 100%;
 }
-.signin-section .signin-content .signin-content-left .button-wrapper .btn-signin:hover {
-  color: #1B253E !important;
-  background-color: #FFC300 !important;
-  border-bottom-color: #1B253E !important;
+.signin-section
+  .signin-content
+  .signin-content-left
+  .button-wrapper
+  .btn-signin:hover {
+  color: #1b253e !important;
+  background-color: #ffc300 !important;
+  border-bottom-color: #1b253e !important;
 }
 .signin-section .signin-content .signin-content-left .bottom-content p {
   font-size: 20px;
@@ -49,7 +57,7 @@
   text-align: center;
 }
 .signin-section .signin-content .signin-content-left .bottom-content p a {
-  color: #FFC300;
+  color: #ffc300;
 }
 .signin-section .signin-content .signin-content-left .bottom-content p a:hover {
   text-decoration: underline;
@@ -68,26 +76,44 @@
   max-width: 478px;
   width: 100%;
 }
-.signin-section .signin-content .signin-content-right .content-right-wrapper .logo-wrapper {
+.signin-section
+  .signin-content
+  .signin-content-right
+  .content-right-wrapper
+  .logo-wrapper {
   margin-bottom: 114px;
   text-align: center;
   display: block;
 }
-.signin-section .signin-content .signin-content-right .content-right-wrapper .content-card {
+.signin-section
+  .signin-content
+  .signin-content-right
+  .content-right-wrapper
+  .content-card {
   min-height: 315px;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.4196078431);
   padding: 90px 70px;
   border-radius: 20px;
 }
-.signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text {
+.signin-section
+  .signin-content
+  .signin-content-right
+  .content-right-wrapper
+  .content-card
+  .card-text {
   font-size: 47px;
   line-height: 63px;
   font-weight: 500;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
 }
-.signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text::before {
+.signin-section
+  .signin-content
+  .signin-content-right
+  .content-right-wrapper
+  .content-card
+  .card-text::before {
   content: "";
   position: absolute;
   top: 12px;
@@ -98,7 +124,13 @@
   background-size: contain;
   background-position: center center;
 }
-.signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text span {
+.signin-section
+  .signin-content
+  .signin-content-right
+  .content-right-wrapper
+  .content-card
+  .card-text
+  span {
   color: #203864;
 }
 
@@ -120,18 +152,36 @@
   .signin-section .signin-content .signin-content-right .content-right-wrapper {
     padding: 0 20px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .logo-wrapper {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .logo-wrapper {
     margin-bottom: 60px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card {
     min-height: unset;
     padding: 40px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card
+    .card-text {
     font-size: 38px;
     line-height: 54px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text::before {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card
+    .card-text::before {
     top: 17px;
     left: -30px;
     width: 25px;
@@ -142,7 +192,11 @@
   .signin-section .signin-content .section-heading .heading {
     margin-bottom: 5px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card {
     padding: 35px;
   }
 }
@@ -160,19 +214,37 @@
     min-height: unset;
     height: unset;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .logo-wrapper {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .logo-wrapper {
     max-width: 210px;
     margin: 0 auto 30px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card {
     padding: 30px 10px 30px 30px;
     border-radius: 10px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card
+    .card-text {
     font-size: 28px;
     line-height: 35px;
   }
-  .signin-section .signin-content .signin-content-right .content-right-wrapper .content-card .card-text:before {
+  .signin-section
+    .signin-content
+    .signin-content-right
+    .content-right-wrapper
+    .content-card
+    .card-text:before {
     top: 9px;
     left: -24px;
     width: 18px;
@@ -186,11 +258,15 @@
   .signin-section .signin-content .signin-content-left .button-wrapper {
     margin-bottom: 15px;
   }
-  .signin-section .signin-content .signin-content-left .button-wrapper .btn-signin {
+  .signin-section
+    .signin-content
+    .signin-content-left
+    .button-wrapper
+    .btn-signin {
     padding: 14px;
   }
   .signin-section .signin-content .signin-content-left .bottom-content p {
     font-size: 16px;
     line-height: 20px;
   }
-}/*# sourceMappingURL=signin.css.map */
+} /*# sourceMappingURL=signin.css.map */

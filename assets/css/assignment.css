@@ -1,7 +1,48 @@
+.assignment-date {
+  border: 1px solid #a0a3bd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 28px;
+  gap: 25px;
+}
+
+.start-date-end-date {
+  display: flex;
+  gap: 80px;
+}
+
+.start-date-end-date p {
+  color: #a0a3bd;
+  font-family: "Urbanist", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 45px;
+  margin-bottom: 6px;
+}
+
+.assignment-date p {
+  margin: 0;
+  color: #a0a3bd;
+}
+.assignment-date img {
+  margin-left: 10px;
+}
+.assignment-date span {
+  color: #030229;
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
 .date-and-create-assignment {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .assignment {
@@ -12,24 +53,33 @@
 
 .assignment-table-wrapper {
   width: 888px;
+  margin: 0 auto;
   /* border: 2px solid red; */
-  /* display: flex; */
-  overflow: auto !important;
+  overflow-x: auto; /* Use "auto" to allow scrollbar when needed */
+}
+
+.assignment-table-content {
+  /* border: 3px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  min-width: 888px; /* Set a minimum width to prevent collapsing */
 }
 
 .assignment-table-header {
   display: flex;
-  justify-content: space-between !important;
+  justify-content: space-between;
   align-items: center;
   border-radius: 10px;
   background: #e1e9f6;
   padding: 0 30px;
   padding-top: 12px;
+  min-width: 100%; /* Ensure header stretches across the table */
 }
 
 .table-header-option {
   color: #48679e;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
@@ -43,11 +93,12 @@
   background: #fafafa;
   padding: 25px;
   margin-top: 15px;
+  min-width: 100%; /* Ensure each row stretches across the table */
 }
 
 .assignment-list-option {
   color: #636363;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -71,4 +122,24 @@
 }
 .assignment-list-action .update {
   border: 1px solid #caade7;
+}
+
+@media (max-width: 888px) {
+  .assignment-table-wrapper {
+    width: 100%; /* Use the full width of the screen */
+  }
+}
+
+@media (max-width: 768px) {
+  .date-and-create-assignment {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .start-date-end-date p { 
+    margin-left: 60px;
+  }
+  .start-date-end-date  {
+    gap: 70px;
+  }
 }
