@@ -8,6 +8,7 @@
   z-index: 2;
   transition: right 0.3s ease-in-out;
   padding: 100px 64px;
+  overflow: auto !important;
 }
 
 #popSidebarOverlay {
@@ -62,6 +63,41 @@
   align-items: center;
   gap: 6px;
   color: white;
+}
+
+.input-area-pop-sidebar {
+  margin-top: 55px;
+}
+.input-area-pop-sidebar .inputs-and-levels {
+  display: flex;
+  flex-direction: column;
+}
+.input-area-pop-sidebar .inputs-and-levels label {
+  color: #636363;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.input-area-pop-sidebar .inputs-and-levels input {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 18px;
+  width: 100%;
+  background: #EFF3FC;
+}
+
+.input-area-pop-sidebar .inputs-and-levels input::placeholder {
+  color: #8f8f8f;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 @media (max-width: 586px) {
