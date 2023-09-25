@@ -38,6 +38,7 @@
       href="assets/css/createResourcesSidebar.css
     "
     />
+    <link rel="stylesheet" href="assets/css/assignmentSidebar.css" />
 
     <title>Assignment - Rozna Hub</title>
   </head>
@@ -200,7 +201,185 @@
                           <img src="assets/images/calendar.png" alt="" />
                         </p>
                       </div>
-                      <button class="resourcesBtn">Create Resource</button>
+                      <button class="resourcesBtn" id="createAssignment">
+                        Create Assignment
+                      </button>
+                    </div>
+
+                    <!-- create assignmetn sidebar start  -->
+                    <div id="createAssignmentSidebar">
+                      <div class="create-resource-sidebar-heading">
+                        <img
+                          id="closeBtnCreateAssignmentSidebar"
+                          src="/assets/images/arrow-left.svg"
+                          alt=""
+                        />
+                        <button class="resourcesBtn">Save</button>
+                      </div>
+                      <!-- create assignmetn sidebar end  -->
+
+                      <div class="create-assignment-body">
+                        <div class="assign-ment-inputs container">
+                          <div class="">
+                            <div class="row">
+                              <div class="col-lg-4 col-md-6 col-12">
+                                <div class="input-area-pop-sidebar">
+                                  <div class="inputs-and-levels">
+                                    <label for="">Choose Course</label>
+                                    <input
+                                      type="text"
+                                      placeholder="Enter Title (0/30)"
+                                    />
+                                  </div>
+
+                                  <div class="inputs-and-levels">
+                                    <label for="">Target number of words</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">10%</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="inputs-and-levels">
+                                    <label for="">Type of resource</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                  <div class="inputs-and-levels">
+                                    <label for="">Randomize Question</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6 col-12">
+                                <div class="input-area-pop-sidebar">
+                                  <div class="inputs-and-levels">
+                                    <label for="">Choose Level</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="inputs-and-levels">
+                                    <label for="">Start Date</label>
+                                    <select name="" id="">
+                                      <option value="">11-2-2023</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                  <div class="inputs-and-levels">
+                                    <label for="">Ened Date</label>
+                                    <select name="" id="">
+                                      <option value="">11-2-2023</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                  <div class="inputs-and-levels">
+                                    <label for="">How Many Question</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6 col-12">
+                                <div class="input-area-pop-sidebar">
+                                  <div class="inputs-and-levels">
+                                    <label for="">Number of attempts</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+
+                                  <div class="inputs-and-levels">
+                                    <label for="">Score preference</label>
+                                    <select name="" id="">
+                                      <option value="">11-2-2023</option>
+                                      <option value="">option2</option>
+                                      <option value="">option3</option>
+                                      <option value="">option4</option>
+                                    </select>
+                                  </div>
+                                  <div class="inputs-and-levels">
+                                    <label for="">Passing From</label>
+                                    <select name="" id="">
+                                      <option value="">Select</option>
+                                      <option value="">10%</option>
+                                      <option value="">20%</option>
+                                      <option value="">30%</option>
+                                      <option value="">40%</option>
+                                      <option value="">50%</option>
+                                      <option value="">60%</option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="container">
+                          <div class="assign-to-the-student">
+                            <div class="assign-student-buttons">
+                              <button
+                                class="resourcesBtn"
+                                id="assignStudentButton"
+                              >
+                                Assign Student
+                              </button>
+                              <button class="resourcesBtn assign-co-teacher">
+                                Assign Co-Teacher
+                              </button>
+                            </div>
+
+                            <div class="assign-student-text">
+                              Assign Assignment to the student
+                            </div>
+                          </div>
+
+                          <!-- assign student pupup start  -->
+                          <div
+                            id="assignStudentPopup"
+                            class="assign-student-popup"
+                          >
+                            <div class="assign-student-popup-content">
+                              <div class="assign-student-popup-heading">
+                                <input
+                                  type="text"
+                                  placeholder="Search Student here"
+                                />
+                                <button class="resourcesBtn">Save</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="assignOverlay" class="assignOverlay"></div>
+                          <!-- assign student pupup end  -->
+                        </div>
+                      </div>
                     </div>
 
                     <div class="assignment-table-wrapper">
@@ -409,5 +588,6 @@
     <script src="assets/js/main.js"></script>
 
     <!-- plane / raw js  -->
+    <script src="assets/js/createAssignmentSidebar.js"></script>
   </body>
 </html>
