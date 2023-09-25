@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/user-header.css" />
     <link rel="stylesheet" href="assets/css/common.css" />
     <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/popSidebar.css" />
 
     <title>Rozna Hub - copy</title>
   </head>
@@ -193,7 +194,20 @@
                           />
                         </svg>
                       </div>
-                      <button class="resourcesBtn">Create Resource</button>
+                      <button class="resourcesBtn" id="togglePopupSidebar">
+                        Create Resource
+                      </button>
+
+                      <div id="popSidebar">
+                        <div class="pop-sidebar-action">
+                          <div class="filters-and-icon">
+                            <img src="assets/images/cross-icon.svg" alt="" id="closeBtnPopSidebar" />
+                            <p>Filter</p>
+                          </div>
+                          <button class="save-btn">Save</button>
+                        </div>
+                      </div>
+                      <div id="popSidebarOverlay"></div>
                     </div>
                   </div>
                   <!-- top create resourse filter end  -->
@@ -756,5 +770,8 @@
     <!-- Slick js -->
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <!-- plane / raw js  -->
+    <script src="assets/js/popSidebar.js"></script>
   </body>
 </html>

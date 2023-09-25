@@ -1,0 +1,72 @@
+#popSidebar {
+  position: fixed;
+  top: 0;
+  right: -586px; /* Start with the sidebar hidden */
+  width: 586px;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  transition: right 0.3s ease-in-out;
+  padding: 100px 64px;
+}
+
+#popSidebarOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1;
+}
+
+.pop-sidebar-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters-and-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filters-and-icon img {
+  border-radius: 10px;
+  background: #afc5ef;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.filters-and-icon p {
+  margin: 0;
+  gap: 20px;
+  color: #000;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.save-btn {
+  border-radius: 10px;
+  background: #314c80;
+  display: inline-flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: white;
+}
+
+@media (max-width: 586px) {
+  #popSidebar {
+    width: 90%;
+    padding: 100px 34px;
+  }
+}
