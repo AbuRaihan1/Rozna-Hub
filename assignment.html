@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.png"
+    />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awasome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Slick css -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <link rel="stylesheet" href="assets/css/user-header.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="/assets/css/popSidebar.css" />
+    <link rel="stylesheet" href="assets/css/assignment.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/createResourcesSidebar.css
+    "
+    />
+
+    <title>Assignment - Rozna Hub</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="page-container">
+        <div class="container-fluid no-padding">
+          <div class="row">
+            <div id="sideMenu" class="col-lg-3 p-0">
+              <!-- Sidebar menu start -->
+              <div class="page-left custom-scroll">
+                <span class="side-menu-toggle" id="sidemenutoggle">
+                  <i class="fa-solid fa-angles-left menuleft-arrow"></i>
+                  <i class="fa-solid fa-angles-right menuright-arrow"></i>
+                </span>
+                <button class="btn close-btn">
+                  <img src="assets/images/close-circle-icon.svg" alt="Close" />
+                </button>
+                <div>
+                  <div class="logo-wrapper">
+                    <img src="assets/images/logo-dark.svg" alt="logo" />
+                  </div>
+                </div>
+                <div class="sidebar-menu">
+                  <ul class="sidebar-menu-list">
+                    <li class="list-item">
+                      <a href="home.html" class="list-link">
+                        <span class="icon icon-m-right">
+                          <img
+                            src="assets/images/home-sidebar-icon.svg"
+                            alt="Home"
+                            class="non-active"
+                          />
+                          <img
+                            src="assets/images/home-white-sidebar-icon.svg"
+                            alt="Home"
+                            class="active"
+                          />
+                        </span>
+                        <span class="menu-item-hide-show">Home</span>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="mycourses.html" class="list-link">
+                        <span class="icon icon-m-right">
+                          <img
+                            src="assets/images/reader-dark.svg"
+                            alt="My Courses"
+                            class="non-active"
+                          />
+                          <img
+                            src="assets/images/reader.svg"
+                            alt="My Courses"
+                            class="active"
+                          />
+                        </span>
+                        <span class="menu-item-hide-show">Rozna L&R</span>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="#" class="list-link active">
+                        <span class="icon icon-m-right">
+                          <img
+                            src="assets/images/book-dark.svg"
+                            alt="Students"
+                            class="non-active"
+                          />
+                          <img
+                            src="assets/images/book.svg"
+                            alt="Students"
+                            class="active"
+                          />
+                        </span>
+                        <span class="menu-item-hide-show">Assignment</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Sidebar menu end -->
+            </div>
+            <div id="fullPage" class="col-lg-9 p-0">
+              <div class="page-right">
+                <div class="top-header">
+                  <div class="header-left">
+                    <div class="logo-wrapper">
+                      <img
+                        src="assets/images/symbols_verified.svg"
+                        alt="EDUNITED"
+                      />
+                      EDUNITED
+                    </div>
+                  </div>
+                  <div class="header-right">
+                    <button class="notifivation-btn btn menu-btn">
+                      <img src="assets/images/menu.svg" alt="notification" />
+                    </button>
+                    <button class="notifivation-btn btn">
+                      <img
+                        src="assets/images/notification-icon.svg"
+                        alt="notification"
+                      />
+                    </button>
+                    <div class="dropdown profile-dropdown">
+                      <button
+                        class="btn btn-profile dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <div class="profile-img-wrapper">
+                          <img
+                            src="assets/images/profile-img.png"
+                            alt="Manav Jones"
+                          />
+                        </div>
+                        <div class="profile-text">
+                          <span class="msg">Welcome back,</span>
+                          <span class="name">Manav Jones</span>
+                        </div>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                          <div class="dropdown-top">
+                            <div class="profile-img">
+                              <img src="assets/images/profile-img.png" alt="" />
+                            </div>
+                            <h5 class="name">Manav Jones</h5>
+                          </div>
+                          <button class="btn btn-logout">
+                            Logout
+                            <img
+                              src="assets/images/logout-icon.svg"
+                              alt="Logout"
+                            />
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- page main content will start from here  -->
+                <div class="main-content">
+                  <div class="assignment">
+                    <div class="date-and-create-assignment">
+                      <div>
+                        <p>start assignment - end assignment</p>
+                      </div>
+                      <button class="resourcesBtn">Create Resource</button>
+                    </div>
+
+                    <div class="assignment-table-wrapper">
+                      <div class="assignment-table">
+                        <div class="assignment-table-header">
+                          <p class="table-header-option">Assignment</p>
+                          <p class="table-header-option">Start Date</p>
+                          <p class="table-header-option">End date</p>
+                          <p class="table-header-option">Target Words</p>
+                          <p class="table-header-option">Action</p>
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="assignment-list">
+                        <p class="assignment-list-option">Test User</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">11-2-2023</p>
+                        <p class="assignment-list-option">233</p>
+                        <div class="assignment-list-action">
+                          <img
+                            class="edit"
+                            src="assets/images/edit.svg"
+                            alt=""
+                          />
+                          <img
+                            class="delete"
+                            src="assets/images/delete.svg"
+                            alt=""
+                          />
+                          <img
+                            class="update"
+                            src="assets/images/update.svg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- page main content will end here  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jquery Js -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- font awesome js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap Bundle Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Slick js -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- plane / raw js  -->
+  </body>
+</html>

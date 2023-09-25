@@ -1,0 +1,74 @@
+.date-and-create-assignment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.assignment {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.assignment-table-wrapper {
+  width: 888px;
+  /* border: 2px solid red; */
+  /* display: flex; */
+  overflow: auto !important;
+}
+
+.assignment-table-header {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  border-radius: 10px;
+  background: #e1e9f6;
+  padding: 0 30px;
+  padding-top: 12px;
+}
+
+.table-header-option {
+  color: #48679e;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.assignment-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #fafafa;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.assignment-list-option {
+  color: #636363;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+
+.assignment-list-action img {
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  height: 34px;
+  width: 34px;
+}
+
+.assignment-list-action .edit {
+  border: 1px solid #36a3a4;
+}
+.assignment-list-action .delete {
+  border: 1px solid #ff9d93;
+}
+.assignment-list-action .update {
+  border: 1px solid #caade7;
+}

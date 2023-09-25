@@ -1,19 +1,19 @@
 // Reset css
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Gilroy', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #203864;
+  font-family: "Gilroy", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #203864;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Reset form elements */
@@ -21,28 +21,27 @@ input,
 button,
 textarea,
 select {
-    outline: none;
-    border: none;
-    background: none;
+  outline: none;
+  border: none;
+  background: none;
 }
 
 // Golbal css
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-
 .wrapper {
-    background-color: #f8faff;
+  background-color: #f8faff;
 }
 
 .no-padding {
-    padding: 0;
-    overflow-x: hidden;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .show-sidemenu {
-    left: 0 !important;
+  left: 0 !important;
 }
