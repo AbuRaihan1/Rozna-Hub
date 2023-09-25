@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const openButton = document.getElementById("togglePopupSidebar");
+  const openButton = document.getElementById("toogleFilterSidebar");
   const sidebar = document.getElementById("popSidebar");
   const overlay = document.getElementById("popSidebarOverlay");
   const closeBtnPopSidebar = document.getElementById("closeBtnPopSidebar");
@@ -34,5 +34,3 @@ document.addEventListener("DOMContentLoaded", function () {
   // Listen for window resize events
   window.addEventListener("resize", handleResize);
 });
-
-

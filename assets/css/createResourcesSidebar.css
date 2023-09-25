@@ -1,0 +1,44 @@
+/* create resources sidebar start  */
+#createResourceSidebar {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Start with the sidebar hidden */
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+  transition: right 0.3s ease-in-out;
+  /* padding: 100px 64px; */
+  overflow: auto !important;
+}
+
+.create-resource-sidebar-heading {
+  height: 82px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+}
+
+.create-resource-sidebar-heading img {
+  display: flex;
+  /* width: 24px;
+  height: 24px; */
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid #314c80;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.create-resource-sidebar-heading img:hover {
+  background: #92b3f1;
+  border: 1px solid #92b3f1;
+}
+
+/* create resources sidebar end  */

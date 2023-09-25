@@ -1,3 +1,4 @@
+/* filter side bar start  */
 #popSidebar {
   position: fixed;
   top: 0;
@@ -87,7 +88,7 @@
   margin-bottom: 30px;
   padding: 18px;
   width: 100%;
-  background: #EFF3FC;
+  background: #eff3fc;
 }
 
 .input-area-pop-sidebar .inputs-and-levels input::placeholder {
@@ -100,9 +101,39 @@
   text-transform: capitalize;
 }
 
+.inputs-and-levels select {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 18px;
+  width: 100%;
+  background: #eff3fc;
+  /* appearance: none; */
+  position: relative;
+}
+
+.inputs-and-levels select::before {
+  content: "\2193"; /* Unicode arrow character (downwards arrow) */
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjust the right spacing as needed */
+  transform: translateY(-50%);
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #ee0808 !important; /* Adjust the color as needed */
+  pointer-events: none; /* Allow clicking through the arrow */
+  padding-right: 30px !;
+}
+
+.inputs-and-levels select:focus + ::before {
+  color: #007bff; /* Change color on focus */
+}
+
 @media (max-width: 586px) {
   #popSidebar {
     width: 90%;
     padding: 100px 34px;
   }
 }
+
+/* filter sidebar end  */
+
+
