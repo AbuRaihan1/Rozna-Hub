@@ -83,11 +83,36 @@
 /* resources start  */
 .createResource {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
   margin-top: 30px;
   margin-bottom: 33px;
+}
+
+.create-resource-inputs-and-search {
+  position: relative;
+}
+
+.create-resource-inputs-and-search input {
+  border-radius: 15px;
+  border: 1px solid #afc5ef;
+  background: #fff;
+  padding: 16px;
+  padding-left: 50px;
+  width: 460px;
+}
+
+.create-resource-inputs-and-search img {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 20px;
+  top: 19px;
+}
+.filter-and-resource {
+  display: flex;
+  gap: 10px;
 }
 
 .createResourceIcon {
@@ -110,7 +135,7 @@
   text-decoration: none;
   display: inline-block;
   transition: background 0.3s ease, border-bottom 0.3s ease, transform 0.2s ease;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
 }
 
 .resourcesBtn:hover {
@@ -149,6 +174,7 @@
   background: #afc5ef;
   padding: 23px;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .popular-courses-section {
@@ -164,6 +190,7 @@
   background: white;
   padding: 19px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
   /* position: relative; */
 }
 
@@ -237,7 +264,7 @@
 .test-user-img-part .views p {
   margin: 0;
   color: #f8faff;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -245,7 +272,7 @@
 .test-user-name h4 {
   color: #203864;
   font-size: 18px;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
 }
 
@@ -264,15 +291,16 @@
   margin: 0;
   color: #203864;
   font-size: 18px;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
 }
 
 .audio-video-text-level {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   margin-bottom: 12px;
+  gap: 8px;
 }
 .audio-video-text {
   display: flex;
@@ -292,7 +320,7 @@
   border: none;
   font-size: 18px;
   font-weight: 500;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   margin-top: 17px;
 }
 
@@ -326,7 +354,7 @@
   border-radius: 5px;
   border: 1px solid #e6e8fb;
   color: #364e79;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-weight: 500;
   background: #eff3fc;
   padding: 8px 10px;
@@ -354,7 +382,7 @@
 .created-by p {
   margin: 0;
   color: #364e79;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -363,12 +391,12 @@
   color: #a0a3bd !important;
   font-size: 12px !important;
   font-weight: 400 !important;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
 }
 
 .words-min {
   color: #a8a3bd;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
   font-size: 12px;
   font-weight: 500;
   background: #fafafa;
@@ -395,6 +423,10 @@
   .hero-banner .content-left .btn-update {
     padding: 10px 52px;
   }
+
+  .createResource {
+    flex-direction: column;
+  }
 }
 @media (max-width: 575px) {
   .hero-banner .custom-row {
@@ -408,5 +440,9 @@
   }
   .hero-banner .content-left {
     text-align: center;
+  }
+
+  .create-resource-inputs-and-search input {
+    width: 350px;
   }
 } /*# sourceMappingURL=home.css.map */
