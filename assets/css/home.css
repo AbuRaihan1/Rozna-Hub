@@ -269,6 +269,44 @@
   font-weight: 500;
 }
 
+.test-user-img-part .unpublished {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 35px;
+  background: #a0a3bd;
+}
+
+.test-user-img-part .unpublished p {
+  margin: 0;
+}
+
+.test-user-img-part .published {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  color: #fff;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 35px;
+  background: #ffc300;
+}
+
+.test-user-img-part .published p {
+  margin: 0;
+}
+
 .test-user-name h4 {
   color: #203864;
   font-size: 18px;
@@ -282,10 +320,6 @@
   justify-content: center;
   gap: 5px;
 }
-
-/* .test-user-name .react img {
-  border-radius: 20px !important;
-} */
 
 .test-user-name .react p {
   margin: 0;
