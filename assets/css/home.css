@@ -112,7 +112,7 @@
 }
 .filter-and-resource {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .createResourceIcon {
@@ -177,6 +177,15 @@
   overflow: hidden;
 }
 
+.recomendation-slider-wrapper-title {
+  color: #203864;
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .popular-courses-section {
   margin-bottom: 10px;
 }
@@ -185,6 +194,29 @@
 }
 
 /* test user card start  */
+
+.all-published-unpublished {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 11px;
+}
+
+.all-published-unpublished button {
+  padding: 15px 18px;
+  border-radius: 15px;
+  border: 1px solid #afc5ef;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.all-published-unpublished .active-publish-btn {
+  background: #ffc300;
+  color: #f8faff;
+  border: 1px solid #ffc300;
+}
+
 .test-user-wrapper {
   border-radius: 20px;
   background: white;
@@ -393,17 +425,16 @@
   background: #eff3fc;
   padding: 8px 10px;
   gap: 10px;
-  color: #000; /* Text color, change as needed */
-  cursor: pointer;
+  color: #000;
   outline: none;
-  font-size: 14px; /* Adjust font size as needed */
+  font-size: 14px;
   margin-top: 2px;
   margin-bottom: 4px;
 }
 
-.economics:hover {
-  background: #d0d9f3; /* Change the background color on hover */
-}
+/* .economics:hover {
+  background: #d0d9f3;  
+} */
 
 .created-by {
   display: flex;
