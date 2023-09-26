@@ -1,0 +1,67 @@
+.view-book-3 {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.view-book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-book-header p {
+  margin: 0;
+  color: #203864;
+  font-family: "Gilroy";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.view-book-header img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  border: 1px solid #314c80;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.view-book-header img:hover {
+  background: #92b3f1;
+  border: 1px solid #92b3f1;
+}
+
+.content-upload-inner-wrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-upload-inner-wrapper .add-a-cover-img {
+  width: 242px;
+  height: 200px;
+  background: #eff3fc;
+  margin-top: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.content-upload-inner-wrapper .add-a-cover-img p {
+  color: #a0a3bd;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Gilroy;
+  font-size: 16.87px;
+  font-weight: 500;
+  margin-top: 10px;
+}

@@ -51,6 +51,15 @@
   gap: 16px;
   margin-top: 30px;
 }
+
+.footer-content-design-now-popup input {
+  height: 25px;
+  width: 25px;
+  border: 2px solid #8c90b6;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #203864;
+}
 .footer-content-design-now-popup p {
   color: #364e79;
   font-family: "Gilroy", sans-serif;
@@ -65,6 +74,41 @@
   font-weight: 400;
   text-decoration-line: underline;
 }
+
+.custom-checkbox .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: white; 
+  border-radius: 5px;  
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #203864; /* Change background color when checked */
+}
+
+.custom-checkbox .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.custom-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
 @media screen and (max-width: 933px) {
   .design-new-popup {
     width: 90%;
