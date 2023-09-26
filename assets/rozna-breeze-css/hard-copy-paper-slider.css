@@ -1,0 +1,141 @@
+.course-list-popup {
+  /* display: none; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 860px;
+  height: 720px;
+  overflow: auto; /* Add scrollbar if content overflows */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+.course-list-popup-content {
+  padding: 30px;
+}
+
+.courseListOverlay {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 998;
+}
+
+.course-list-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #a0a3bd;
+  padding-bottom: 15px;
+}
+
+.course-list-popup-header P {
+  margin: 0;
+  color: #a0a3bd;
+  font-family: Gilroy;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.course-list-popup-header P span {
+  color: #000;
+}
+
+.course-list-popup-header img {
+  border-radius: 10px;
+  background: #e1e9f6;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.course-list-popup-header img:hover {
+  background: #c3d3ec;
+}
+
+.course-list-save-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 23px;
+}
+
+.course-list-save-btn button {
+  padding: 15px 30px;
+  font-size: 20px;
+}
+
+.course-list-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #e1e9f6;
+  padding: 0 30px;
+  /* padding-top: 12px; */
+  margin-top: 33px;
+}
+
+.table-header-option {
+  color: #48679e;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: #fafafa;
+  padding: 25px;
+  margin-top: 15px;
+}
+
+.course-list-option {
+  color: #636363;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0;
+}
+
+.course-list .course-list-option-date-style {
+  border-radius: 10px;
+  border: 1px solid #e1e9f6;
+  background: #fafafa;
+  padding: 10px 15px;
+}
+.course-list .course-list-option-date-style
+.course-list-date {
+  display: flex;
+}
+
+.course-list-calender {
+    /* margin-left: 10px; */
+}
+
+@media screen and (max-width: 1366px) {
+  .course-list-popup {
+    width: 860px;
+    margin-left: 0%;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .course-list-popup {
+    width: 90%;
+    margin-left: 0%;
+    height: 90vh;
+  }
+}

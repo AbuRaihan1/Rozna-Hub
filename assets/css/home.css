@@ -125,7 +125,6 @@
 }
 .resourcesBtn {
   border-radius: 10px;
-  border-bottom: 3px solid var(--Primary-Y, #ffc300);
   background: #314c80;
   color: #fff;
   padding: 10px 20px;
@@ -136,6 +135,8 @@
   display: inline-block;
   transition: background 0.3s ease, border-bottom 0.3s ease, transform 0.2s ease;
   font-family: "Gilroy", sans-serif;
+  border: none;
+  border-bottom: 3px solid  #ffc300;
 }
 
 .resourcesBtn:hover {
