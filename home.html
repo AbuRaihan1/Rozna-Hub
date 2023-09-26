@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="assets/css/common.css" />
     <link rel="stylesheet" href="assets/css/home.css" />
     <link rel="stylesheet" href="/assets/css/popSidebar.css" />
+    <link rel="stylesheet" href="assets/css/designNewSidebar.css" />
     <link
       rel="stylesheet"
       href="assets/css/createResourcesSidebar.css
@@ -205,10 +206,49 @@
                             />
                           </svg>
                         </div>
-                        <button class="resourcesBtn" id="resourcesBtn">
+                        <button class="resourcesBtn" id="designNewBtn">
                           Design Now
                         </button>
                       </div>
+
+                      <!-- Design now pupup start  -->
+                      <div id="designNowPopup" class="design-new-popup">
+                        <div class="design-now-popup-content">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-6 col-12">
+                                <div class="design-now-popup-content-inner">
+                                  <img
+                                    src="assets/images/upload-a-document.png"
+                                    alt=""
+                                  />
+                                  <p>Upload a document to transform</p>
+                                </div>
+                              </div>
+                              <div class="col-md-6 col-12">
+                                <div class="design-now-popup-content-inner">
+                                  <img
+                                    src="assets/images/create-presentation.png"
+                                    alt=""
+                                  />
+                                  <p>Create a presentation with a templete</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="footer-content-design-now-popup">
+                              <input type="checkbox" />
+                              <p>
+                                By clicking “Create a presentation” or “Upload a
+                                file” you agree to our
+                                <a href="#">Terms and Conditions</a> and
+                                <a href="#">Privacy Policy</a>.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="designNowOverlay" class="designNowOverlay"></div>
+                      <!-- Design now pupup end  -->
 
                       <!-- filter sidebar start -->
 
@@ -759,5 +799,6 @@
     <!-- plane / raw js  -->
     <script src="assets/js/filterSidebar.js"></script>
     <script src="assets/js/createResourceSidebar.js"></script>
+    <script src="assets/js/designNowPopup.js"></script>
   </body>
 </html>

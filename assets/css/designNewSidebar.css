@@ -1,0 +1,73 @@
+.design-new-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 933px;
+  height: 500px;
+  overflow: auto;
+  z-index: 999;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.design-now-popup-content {
+  padding: 20px;
+}
+
+.designNowOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 998;
+}
+
+.design-now-popup-content-inner {
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.design-now-popup-content-inner p {
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.footer-content-design-now-popup {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+}
+.footer-content-design-now-popup p {
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+}
+.footer-content-design-now-popup p a {
+  color: #ffc300;
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+@media screen and (max-width: 933px) {
+  .design-new-popup {
+    width: 90%;
+    margin-left: 0%;
+  }
+}
