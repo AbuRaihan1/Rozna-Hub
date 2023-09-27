@@ -7,15 +7,18 @@
   background: #fff;
   width: 860px;
   height: 720px;
-  overflow: auto; /* Add scrollbar if content overflows */
+  overflow: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 999;
   margin: 0 20px;
   border-radius: 20px;
+  box-sizing: content-box;
 }
 
 .course-list-popup-content {
   padding: 30px;
+  /* border-radius: 20px; */
+  width: 800px;
 }
 
 .courseListOverlay {
@@ -101,12 +104,13 @@
 }
 
 .course-list-option {
-  color: #636363;
+  color: #364e79;
   font-family: "Gilroy", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   margin: 0;
+  font-weight: 500;
 }
 
 .course-list .course-list-option-date-style {
@@ -115,15 +119,73 @@
   background: #fafafa;
   padding: 10px 15px;
 }
-.course-list .course-list-option-date-style
 .course-list-date {
   display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.course-list-date p {
+  color: #a0a3bd;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.course-list-date span {
+  color: #a0a3bd;
+  font-family: 'Gilroy', sans-serif;
 }
 
 .course-list-calender {
-    /* margin-left: 10px; */
+  margin-left: 10px;
+  width: 14px;
+  height: 14px;
 }
 
+.assignment-list-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assignment-list-action button {
+  border-radius: 5px;
+  border: 1px solid #008081;
+  background: #c8ffff;
+  padding: 10px 7px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Gilroy", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #008081;
+  cursor: pointer;
+}
+.assignment-list-action button:hover {
+  background: #a8eeee;
+}
+
+.assignment-list-action .not-assigned-btn {
+  border-radius: 10px;
+  border: 1px solid #e1e9f6;
+  background: #fafafa;
+  padding: 10px 17px;
+  color: #a0a3bd;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.assignment-list-action .not-assigned-btn:hover {
+  background: #f0ebeb;
+  border-color: #f0ebeb;
+}
+.assignment-list-action img {
+  margin-right: 5px;
+  height: 14px;
+  width: 14px;
+}
 @media screen and (max-width: 1366px) {
   .course-list-popup {
     width: 860px;
@@ -138,4 +200,19 @@
     margin-left: 0%;
     height: 90vh;
   }
+}
+
+/* scrollbar edit in course-list  */
+.course-list-popup::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.course-list-popup::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.course-list-popup::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
