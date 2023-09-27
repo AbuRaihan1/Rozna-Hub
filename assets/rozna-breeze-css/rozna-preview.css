@@ -176,6 +176,8 @@ body {
   justify-content: center;
   align-items: center;
   outline: none;
+  color: #a0a3bd;
+  padding: 10px;
 }
 .student-chapter-btn {
   margin-top: 20px;

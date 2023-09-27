@@ -191,6 +191,7 @@ body {
   border-radius: 10px;
   border: 1px solid #afc5ef;
   background: #fff;
+  cursor: pointer;
 }
 
 .question-option span {

@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="assets/rozna-breeze-css/add-multiple-choice.css"
     />
-
+    <link rel="stylesheet" href="assets/rozna-breeze-css/rozna-preview.css" />
     <title>Rozna - Hub</title>
   </head>
   <body>
@@ -88,9 +88,13 @@
               placeholder=" Enter your question..."
             />
 
-            <div class="question-option">
+            <div class="question-option wrong-question-ans">
               <span>A</span>
               <p>highest railway station</p>
+              <img
+                src="assets/rozna-breeze-icon/icons/white-circle.svg"
+                alt=""
+              />
             </div>
 
             <buttonn class="add-another-option">
@@ -174,9 +178,24 @@
               placeholder=" Enter your question..."
             />
 
-            <div class="question-option">
-              <span>A</span>
-              <p>highest railway station</p>
+            <div class="questions">
+              <div class="question-option right-question-ans">
+                <span>A</span>
+                <p>highest railway station</p>
+                <img
+                  src="assets/rozna-breeze-icon/icons/charm_tick.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="question-option wrong-question-ans">
+                <span>A</span>
+                <p>highest railway station</p>
+                <img
+                  src="assets/rozna-breeze-icon/icons/white-circle.svg"
+                  alt=""
+                />
+              </div>
             </div>
 
             <buttonn class="add-another-option">
@@ -189,6 +208,65 @@
 
             <div class="correct-answer">
               <p>Correct Answer : <span>highest railway station</span></p>
+              <button class="correct-ans-preview-btn">
+                <img
+                  src="assets/rozna-breeze-icon/icons/ic_round-remove-red-eye.svg"
+                  alt=""
+                />
+                <span class="" style="margin-top: 2px">Preview</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="question-add-box">
+            <div class="text-multiple-choice-text-wrapper">
+              <div class="text-multiple-choice-text-content">
+                <img
+                  src="assets/rozna-breeze-icon/icons/Vector.svg"
+                  alt=""
+                  class="gray-icon-multiple-choice"
+                />
+                <p>Drag words in sentense</p>
+              </div>
+
+              <div class="delete-and-copy-btn">
+                <img
+                  src="assets/rozna-breeze-icon/icons/mdi_delete.svg"
+                  alt=""
+                />
+                <img
+                  src="assets/rozna-breeze-icon/icons/solar_copy-linear.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="drag-words-note">
+              Note: Enter text that need to be dragged into the text
+            </div>
+
+            <div class="hello-part">
+              <div class="hello-our">
+                <p>Hello</p>
+                <input class="hello-name-space" placeholder="Student" />
+                <p>Our New</p>
+                <input class="hello-name-space" placeholder="Chapter" />
+              </div>
+
+              <div class="student-chapter-btn">
+                <button>Chapter</button>
+                <button>Student</button>
+              </div>
+            </div>
+
+            <input
+              class="enter-your-que-input"
+              type="text"
+              placeholder=" Enter your question..."
+            />
+
+            <div class="correct-answer">
+              <div></div>
               <button class="correct-ans-preview-btn">
                 <img
                   src="assets/rozna-breeze-icon/icons/ic_round-remove-red-eye.svg"
