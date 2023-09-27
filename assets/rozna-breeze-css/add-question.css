@@ -106,9 +106,11 @@ body {
 /* add question box start  */
 
 .question-add-box {
-  background: white;
-  padding: 20px;
   border-radius: 20px;
+  border: 1px solid #afc5ef;
+  background: #fff;
+  box-shadow: 0px 2.49247px 14.3317px 0px rgba(0, 0, 0, 0.07);
+  padding: 20px;
 }
 
 .question-add-box-action {
@@ -161,5 +163,71 @@ body {
   cursor: pointer;
 }
 .delete-and-copy-btn img:hover {
-  background:  #afc5ef;
+  background: #afc5ef;
+}
+
+.enter-your-que-input {
+  border-radius: 10px;
+  background: #eff3fc;
+  border: none;
+  outline: none;
+  width: 97.4%;
+  height: 30px;
+  color: #8c90b6;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.question-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #afc5ef;
+  background: #fff;
+}
+
+.question-option span {
+  border-radius: 10px;
+  background: #eff3fc;
+  padding: 12px 16px;
+  color: #364e79;
+  text-align: center;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.question-option p {
+  color: #364e79;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.add-another-option {
+  color: #ffc300;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  background: #fff9e4;
+  padding: 18px 60px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 290px;
+  margin-top: 20px;
+  cursor: pointer;
 }
