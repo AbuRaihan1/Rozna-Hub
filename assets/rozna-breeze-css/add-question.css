@@ -227,7 +227,25 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  width: 290px;
+  width: 260px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+.add-question-btn {
+  padding: 15px !important;
+  border-radius: 10px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+  width: 183px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .input-and-arrow input {
+    width: 100px;
+  }
+  .add-question-header {
+    padding: 0 20px;
+  }
 }
