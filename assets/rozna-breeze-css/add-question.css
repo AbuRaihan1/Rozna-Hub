@@ -172,7 +172,7 @@ body {
   border: none;
   outline: none;
   width: 97.4%;
-  height: 30px;
+  /* height: 30px; */
   color: #8c90b6;
   font-family: "Gilroy", sans-serif;
   font-size: 18px;
@@ -214,6 +214,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin: 0;
 }
 
 .add-another-option {
@@ -227,11 +228,14 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
-  width: 260px;
+  /* width: 260px; */
+  display: inline-block;
   margin-top: 20px;
   cursor: pointer;
 }
-
+.add-another-option:hover {
+  background: #f3edd7;
+}
 .add-question-btn {
   padding: 15px !important;
   border-radius: 10px;
@@ -247,5 +251,8 @@ body {
   }
   .add-question-header {
     padding: 0 20px;
+  }
+  .delete-and-copy-btn img {
+    padding: 5px;
   }
 }

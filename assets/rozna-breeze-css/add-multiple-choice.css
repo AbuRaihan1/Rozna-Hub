@@ -28,12 +28,14 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin: 0;
 }
 
 .correct-answer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .correct-answer p {
@@ -41,6 +43,7 @@
   font-family: "Gilroy", sans-serif;
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
 }
 
 .correct-answer p span {
@@ -86,9 +89,39 @@
 }
 
 .add-question-add-question-using-ai button:hover {
-    background: #d4def0;
+  background: #d4def0;
 }
 
 .purple-icon-multiple-choice {
   background: #e3c7ff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .text-multiple-choice-text-content img {
+    padding: 5px;
+  }
+
+  .correct-ans-preview-btn {
+    font-size: 15px;
+  }
+
+  .correct-answer p {
+    font-size: 15px;
+  }
+  .add-question-add-question-using-ai button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .correct-answer p {
+    font-size: 12px;
+  }
+  .correct-ans-preview-btn {
+    font-size: 12px;
+  }
+  .correct-ans-preview-btn span {
+    margin-top: 5px !important;
+  }
 }
