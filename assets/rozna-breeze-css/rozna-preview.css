@@ -1,18 +1,25 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Gilroy;
+  font-family: "Gilroy", sans-serif;
 }
 
-input::placeholder {
-  color: #a0a3bd; /* Change to your desired color, e.g., red */
-}
+/* input::placeholder {
+  color: #a0a3bd;  
+} */
+
 .preview-header {
   height: 82px;
   background: #203864;
   display: flex;
   align-items: center;
   padding: 0 20px;
+}
+
+.preview-main-content-wrapper {
+  background-color: #f8faff;
+  /* margin-top: -27px;0 */
+  padding-top: 25px;
 }
 .preview-header-content {
   display: flex;
@@ -31,7 +38,7 @@ input::placeholder {
   padding: 10px;
   cursor: pointer;
   color: #bbc6da;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .circle-left-arrow:hover {
@@ -54,6 +61,7 @@ input::placeholder {
   border-radius: 17px;
   background: white;
   margin-top: 30px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
 }
 
 .main-div {
@@ -214,6 +222,7 @@ input::placeholder {
   outline: none;
   border: none;
   margin-top: 35px;
+  white-space: nowrap;
 }
 
 .custom-audio {
