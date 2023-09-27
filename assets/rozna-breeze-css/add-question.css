@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.without-header-full-content {
+  padding: 20px;
+  background: #f8faff;
+}
 .add-question-header {
   display: flex;
   justify-content: space-between;
@@ -11,6 +14,7 @@ body {
   background: #fff;
   box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
   padding: 0 50px;
+  /* background: white; */
 }
 
 .input-and-arrow {
@@ -97,4 +101,65 @@ body {
 
 .add-question-save-btn:hover {
   background: #1f3251 !important;
+}
+
+/* add question box start  */
+
+.question-add-box {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.question-add-box-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-qeustion-text-edit-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 230px;
+  border-radius: 140px;
+  border: 1px solid #eff3fc;
+  background: #fafafa;
+  padding: 10px 30px;
+  /* padding: 20px; */
+}
+
+.bold-italic-etc-icon {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bold-italic-etc-icon img {
+  cursor: pointer;
+}
+.add-img-add-vid-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.add-img-add-vid-icons img {
+  cursor: pointer;
+}
+
+.delete-and-copy-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.delete-and-copy-btn img {
+  border: 1px solid #afc5ef;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.delete-and-copy-btn img:hover {
+  background:  #afc5ef;
 }
