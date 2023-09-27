@@ -45,8 +45,8 @@ body {
   background: #eff3fc;
   border: none;
   outline: none;
-  width: 457px;
-  height: 30px;
+  width: 340px;
+  /* height: 30px; */
   color: #8c90b6;
   font-family: "Gilroy", sans-serif;
   font-size: 18px;
@@ -247,12 +247,35 @@ body {
 
 @media screen and (max-width: 768px) {
   .input-and-arrow input {
-    width: 100px;
+    width: 200px;
+    padding: 8px;
   }
+
+  .circle-left-arrow {
+    padding: 5px;
+  }
+
   .add-question-header {
     padding: 0 20px;
   }
+
+  .preview-and-save-btn button {
+    padding: 8px 15px !important;
+    font-size: 12px !important;
+  }
+
+  .preview-and-save-btn img {
+    display: none;
+  }
+
   .delete-and-copy-btn img {
     padding: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input-and-arrow input {
+    width: 150px;
+    padding: 8px;
   }
 }
