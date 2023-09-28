@@ -214,6 +214,56 @@ body {
   font-size: 18px;
   font-weight: 400;
 }
+
+/* component 29 style  */
+
+.post-content-shared-sidebar {
+  margin-top: 50px;
+  border-radius: 20px 20px 0px 0px;
+  background: #eff3fc;
+}
+
+.text-edit-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.text-edit-action p {
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  cursor: pointer;
+}
+
+.write-some-thing-about-post {
+  border-radius: 20px;
+  background: #eff3fc;
+  width: 100%;
+  min-height: 135px;
+  padding: 25px;
+  color: #a0a3bd;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  resize: none;
+}
+
+.text-edit-actions-bold-italic-etc {
+  display: flex;
+  gap: 10px;
+}
+
+.text-edit-actions-bold-italic-etc img {
+  cursor: pointer;
+}
 @media screen and (max-width: 768px) {
   .shared-sidebar-wrapper {
     width: 90% !important;
