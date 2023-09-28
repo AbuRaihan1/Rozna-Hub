@@ -4,6 +4,14 @@
 .semi-red-icon-bg {
   background: #ffcdc8 !important;
 }
+
+.orange-icon-bg {
+  background-color: #ffe2d1 !important;
+}
+
+.yellow-icon-bg {
+  background: #fff3ca !important;
+}
 .write-sentence input {
   width: 100%;
   border-radius: 10px;
