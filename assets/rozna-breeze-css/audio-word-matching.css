@@ -1,0 +1,39 @@
+.write-sentence {
+}
+
+.semi-red-icon-bg {
+  background: #ffcdc8 !important;
+}
+.write-sentence input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #afc5ef;
+  background: white;
+}
+
+.choose-audio-file {
+  border-radius: 10px;
+  background: #ffc300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.choose-audio-file button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #f8faff;
+  font-family: "Gilroy", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.choose-audio-file button img {
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
