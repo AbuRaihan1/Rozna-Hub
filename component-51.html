@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/rozna-breeze-css/shared-sidebar.css" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <title>Rozna - Hub</title>
+
+    <style></style>
+  </head>
+  <body>
+    <div class="shared-sidebar-wrapper">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img src="assets/images/cross-icon.svg" alt="" />
+              <p>Add Rozna Space</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+
+          <div class="enable-interactivity-toogle">
+            <p>Enable Interactivity</p>
+            <label class="toggle-switch">
+              <input type="checkbox" id="toggleButton" />
+              <span class="toggle-handle"></span>
+            </label>
+          </div>
+
+          <div class="testing-required-card-shared-sidebar">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript to handle toggle functionality
+      const toggleButton = document.getElementById("toggleButton");
+      const toggleHandle = document.querySelector(".toggle-handle");
+
+      toggleButton.addEventListener("change", function () {
+        if (toggleButton.checked) {
+          toggleHandle.style.transform = "translateX(36.29px)";
+        } else {
+          toggleHandle.style.transform = "translateX(0)";
+        }
+      });
+    </script>
+  </body>
+</html>

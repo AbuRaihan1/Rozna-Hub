@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.shared-sidebar-wrapper {
+  position: relative;
+}
+
+.shared-sidebar {
+  background: white;
+  overflow: auto;
+  width: 586px;
+  height: 100%;
+  height: 990px;
+  position: absolute;
+  right: 0;
+  padding: 60px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.shared-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shared-sidebar-cross-icon-and-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.shared-sidebar-cross-icon-and-text img {
+  border-radius: 10px;
+  background: #afc5ef;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.shared-sidebar-cross-icon-and-text p {
+  margin: 0;
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.shared-sidebar-save-btn {
+  border-radius: 10px;
+  background: #314c80;
+  padding: 15px 30px;
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.shared-sidebar-save-btn:hover {
+  background: rgb(37, 63, 110);
+}
+
+.enable-interactivity-toogle p {
+  color: #a0a3bd;
+  font-family: "Gilroy", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 36px;
+}
+
+/* check box styling  */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60.59px;
+  height: 24px;
+  background-color: #e1e9f6;
+  border-radius: 12px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.toggle-switch .toggle-handle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #364e79;
+  transition: transform 0.2s;
+}
+
+.toggle-switch input[type="checkbox"] {
+  display: none;
+}
+
+.testing-required-card {
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0px 2.49247px 14.3317px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
+.testing-required-card img {
+  width: 100%;
+  border-radius: 20px;
+  height: 102px;
+}
+.testing-required-card h5 {
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 11.216px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.testing-required-card p {
+  color: #a0a3bd;
+  font-family: "Gilroy", sans-serif;
+  font-size: 8.724px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+@media screen and (max-width: 768px) {
+  .shared-sidebar-wrapper {
+    width: 90% !important;
+    position: absolute;
+    right: 0;
+  }
+
+  .shared-sidebar {
+    right: 0 !important;
+    width: 90% !important;
+    padding: 60px 20px;
+  }
+
+  .shared-sidebar-cross-icon-and-text p {
+    font-size: 18px;
+  }
+  .shared-sidebar-save-btn {
+    padding: 10px 20px;
+  }
+}
