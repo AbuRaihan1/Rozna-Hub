@@ -132,7 +132,7 @@ body {
   align-items: center;
   border-radius: 20px;
   background: #eff3fc;
-  padding:40px 30px;
+  padding: 40px 30px;
   /* height: 145px; */
   margin-top: 50px;
   cursor: pointer;
@@ -196,6 +196,24 @@ body {
   margin-top: 45px;
 }
 
+/* component 30 style  */
+
+.add-url-input-shared-sidebar {
+  margin-top: 60px;
+}
+
+.add-url-input-shared-sidebar input {
+  border-radius: 15px;
+  border: 1px solid #afc5ef;
+  background: #fff;
+  width: 100%;
+  outline: none;
+  padding: 18px;
+  color: #a0a3bd;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
 @media screen and (max-width: 768px) {
   .shared-sidebar-wrapper {
     width: 90% !important;
