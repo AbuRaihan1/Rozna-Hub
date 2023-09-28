@@ -2,6 +2,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main-wrapper-for-design-hard-copy {
+  padding: 20px;
+}
 .design-hard-paper-heading {
   height: 82px;
   display: flex;
@@ -148,4 +152,106 @@ body {
 
 .preview-and-publish-btn-area .publish-btn {
   background: #ffc300;
+}
+
+.design-hard-test-user-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
+  margin-top: 10px;
+  /* width: 1440px; */
+  overflow: auto;
+}
+.design-hard-test-user-icons p {
+  color: #364e79;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  margin: 0;
+  cursor: pointer;
+  /* border: 2px solid red; */
+  /* width: 400px !important; */
+  margin-right: 40px !important;
+}
+.design-hard-test-user-icons-inner-wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.design-hard-test-user-icons-inner-wrapper .number-and-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.design-hard-test-user-icons-inner-wrapper .number-and-icons span {
+  color: #8c90b6;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.design-hard-test-user-icons-inner-wrapper .svg-icons {
+  background-color: #eff3fc;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-input-deisgn-hard input {
+  border-radius: 10px;
+  border: none;
+  outline-style: none;
+  padding: 11px 15px;
+  background: #eff3fc;
+  width: 319px;
+  color: #a0a3bd;
+  font-family: "Gilroy", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .design-hard-paper-heading {
+    padding: 5px;
+  }
+  .header-left-arrow {
+    padding: 3px;
+  }
+  .design-hard-heding-right-side-icons {
+    gap: 8px;
+  }
+  .design-hard-heding-right-side-icons .icons-and-text img {
+    padding: 3px;
+  }
+
+  .icons-and-text p {
+    font-size: 12px !important;
+  }
+}
+
+/* scrollbar editz  */
+.page-setting-text-etc-option-wrapper::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.page-setting-text-etc-option-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.page-setting-text-etc-option-wrapper::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.page-setting-text-etc-option-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
