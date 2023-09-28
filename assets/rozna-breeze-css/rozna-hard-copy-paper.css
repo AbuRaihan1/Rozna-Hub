@@ -66,3 +66,86 @@ body {
   background: #92b3f1;
   border: 1px solid #92b3f1;
 }
+
+.page-setting-text-etc-option-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
+  overflow: auto;
+}
+
+.just-pages-and-settings-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-right: 60px;
+}
+
+.page-setting-text-etc-option-wrapper .icons-setting-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.icons-settings-area-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-settings-area-inner p {
+  margin: 2px 0;
+  color: #364e79;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.icons-setting-area .svg-photo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.setting-and-page-extra-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border-bottom: 2px solid #ffc300;
+  background: #eff3fc;
+  padding: 15px;
+}
+.setting-and-page-extra-style img {
+  height: 24px;
+  width: 24px;
+}
+
+.preview-and-publish-btn-area {
+  display: flex;
+  gap: 20px;
+}
+
+.preview-and-publish-btn-area button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.preview-and-publish-btn-area .preview-btn {
+  background: #f5772d;
+}
+
+.preview-and-publish-btn-area .publish-btn {
+  background: #ffc300;
+}
