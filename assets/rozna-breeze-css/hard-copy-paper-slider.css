@@ -1,5 +1,4 @@
 .course-list-popup {
-  /* display: none; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -7,18 +6,19 @@
   background: #fff;
   width: 860px;
   height: 720px;
-  overflow: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 999;
-  margin: 0 20px;
   border-radius: 20px;
   box-sizing: content-box;
+  text-align: center;
+  padding: 20px;
+  overflow: auto !important;
 }
 
 .course-list-popup-content {
-  padding: 30px;
-  /* border-radius: 20px; */
   width: 800px;
+  overflow: auto;
+  margin: 0 auto;
 }
 
 .courseListOverlay {
@@ -80,9 +80,12 @@
   align-items: center;
   border-radius: 10px;
   background: #e1e9f6;
-  padding: 0 30px;
-  /* padding-top: 12px; */
+  padding: 10px 30px;
   margin-top: 33px;
+}
+
+.course-list-table-header p {
+  margin: 0;
 }
 
 .table-header-option {
@@ -91,6 +94,7 @@
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
+
 }
 
 .course-list {
@@ -99,7 +103,7 @@
   align-items: center;
   border-radius: 10px;
   background: #fafafa;
-  padding: 25px;
+  padding: 15px 30px;
   margin-top: 15px;
 }
 
@@ -134,7 +138,7 @@
 
 .course-list-date span {
   color: #a0a3bd;
-  font-family: 'Gilroy', sans-serif;
+  font-family: "Gilroy", sans-serif;
 }
 
 .course-list-calender {
