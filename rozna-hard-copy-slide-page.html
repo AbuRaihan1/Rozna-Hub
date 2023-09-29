@@ -31,7 +31,7 @@
         />
 
         <div class="design-hard-heding-right-side-icons">
-          <div class="icons-and-text">
+          <div class="icons-and-text" id="assignPopUpOpen">
             <img src="assets/rozna-breeze-icon/icons/tag-user.svg" alt="" />
             <p class="assign">Asign</p>
           </div>
@@ -81,16 +81,14 @@
               <p>pages</p>
             </div>
 
-            <div
-              id="popSidebarSettingOpen"
-              class="icons-settings-area-inner setting-and-page-extra-style"
-            >
+            <div class="icons-settings-area-inner setting-and-page-extra-style">
               <img src="assets/rozna-breeze-icon/icons/setting-2.svg" alt="" />
               <p>Settings</p>
             </div>
 
             <div
               class="icons-settings-area-inner setting-and-page-extra-style setting-and-page-extra-style-with-text"
+              id="popSidebarSettingOpen"
             >
               <div class="svg-photo">
                 <svg
@@ -808,7 +806,6 @@
     <div id="popSidebarOverlay"></div>
     <!-- filter sidebar end -->
 
-
     <!--component 29 sidebar start  -->
     <div class="shared-sidebar-wrapper" id="shared-sidebar-wrapper">
       <div class="shared-sidebar">
@@ -884,7 +881,6 @@
     </div>
     <!-- component 29 sidebar end  -->
 
-
     <!-- component 30 sidebar start  -->
     <div class="shared-sidebar-wrapper" id="shared-sidebar-wrapper-compo-30">
       <div class="shared-sidebar">
@@ -908,7 +904,6 @@
       </div>
     </div>
     <!-- component 30 sidebar end  -->
-
 
     <!-- component 31 add audio sidebar start  -->
     <div class="shared-sidebar-wrapper" id="addAudioSidebar">
@@ -939,7 +934,6 @@
       </div>
     </div>
     <!-- component 31 add audio sidebar end  -->
-
 
     <!-- compnent 33 add quiz sidebar start  -->
     <div class="shared-sidebar-wrapper" id="addQuizSidebar">
@@ -1056,7 +1050,6 @@
     </script>
     <!-- compnent 54 add razna space sidebar end  -->
 
-
     <!-- add image component 54 sidebar start  -->
     <div class="shared-sidebar-wrapper" id="addImgSidebar">
       <div class="shared-sidebar">
@@ -1098,16 +1091,19 @@
     </div>
     <!-- add image component 54 sidebar end  -->
 
-    
     <!-- all sidebars code here end -->
 
     <!-- course-list-popup-start  -->
-    <!-- <div>
+    <div id="CourseListPopUp">
       <div class="course-list-popup">
         <div class="course-list-popup-content">
           <div class="course-list-popup-header">
             <p>Assign><span>Course List</span></p>
-            <img src="assets/images/cross-icon.svg" alt="" />
+            <img
+              src="assets/images/cross-icon.svg"
+              id="assignPopupCloseBtn"
+              alt=""
+            />
           </div>
           <div class="course-list-save-btn">
             <button class="resourcesBtn">Save</button>
@@ -1209,9 +1205,9 @@
         </div>
       </div>
       <div id="courseListOverlay" class="courseListOverlay"></div>
-    </div> -->
+    </div>
     <!-- course-list-popup-end  -->
-
+    <script src="assets/js/assignPopup.js"></script>
     <script src="assets/js/shared-sidebar-open-close.js"></script>
   </body>
 </html>

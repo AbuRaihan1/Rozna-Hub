@@ -270,7 +270,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  border: 2px solid red;
 }
 
 .text-edit-action p {
@@ -326,5 +325,18 @@ body {
   }
   .shared-sidebar-save-btn {
     padding: 10px 20px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .shared-sidebar-wrapper {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .shared-sidebar-wrapper {
+    padding: 40px 10px;
   }
 }

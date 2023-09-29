@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+#CourseListPopUp {
+  display: none;
+}
+
 .main-wrapper-for-design-hard-copy {
   padding: 20px;
 }
@@ -121,6 +125,11 @@ body {
   border-bottom: 2px solid #ffc300;
   background: #eff3fc;
   padding: 15px;
+}
+
+.setting-and-page-extra-style:hover {
+  background-color: #ffc300;
+  border-bottom: 2px solid #203864;
 }
 .setting-and-page-extra-style img {
   height: 24px;
