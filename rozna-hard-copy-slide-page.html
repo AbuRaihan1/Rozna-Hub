@@ -18,17 +18,18 @@
 
     <link rel="stylesheet" href="assets/css/popSidebar.css" />
     <link rel="stylesheet" href="assets/rozna-breeze-css/shared-sidebar.css" />
-
+    <link rel="stylesheet" href="assets/rozna-breeze-css/rozna-preview.css" />
     <title>Rozna - Hub</title>
   </head>
   <body>
     <div class="design-hard-paper">
       <div class="design-hard-paper-heading">
-        <img
-          class="header-left-arrow"
-          src="assets/rozna-breeze-icon/icons/arrow-left.svg"
-          alt=""
-        />
+        <div class="preview-header">
+          <div class="preview-header-content">
+            <img src="assets/rozna-breeze-icon/icons/home-2.svg" alt="" />
+            <p>Rozna Hub</p>
+          </div>
+        </div>
 
         <div class="design-hard-heding-right-side-icons">
           <div class="icons-and-text" id="assignPopUpOpen">
@@ -75,13 +76,40 @@
     <div class="main-wrapper-for-design-hard-copy">
       <div class="page-setting-text-etc-option-wrapper">
         <div class="icons-setting-area">
-          <div class="just-pages-and-settings-wrapper">
-            <div class="icons-settings-area-inner setting-and-page-extra-style">
+          <div class="just-pages-and-settings-wrapper open-pages-popupBox-wrapper">
+            <div
+              class="icons-settings-area-inner setting-and-page-extra-style open-pages-popupBox"
+              id="openBoxButton"
+            >
               <img src="assets/rozna-breeze-icon/icons/note-2.svg" alt="" />
               <p>pages</p>
+
+              <!-- this box for pages button start -->
+              <div class="pages-preview-box-wrapper">
+                <div class="pages-preview-box" id="pages-preview-box">
+                  <div class="triangle"></div>
+                  <div class="preview-pages-box-content">
+                    <img
+                      src="assets/rozna-breeze-icon/icons/my-notes.png"
+                      alt=""
+                    />
+
+                    <hr />
+
+                    <img
+                      src="assets/rozna-breeze-icon/icons/my-notes.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <!-- this box for pages button end -->
             </div>
 
-            <div class="icons-settings-area-inner setting-and-page-extra-style">
+            <div
+              class="icons-settings-area-inner setting-and-page-extra-style"
+              id="openSettingSidebarBtn"
+            >
               <img src="assets/rozna-breeze-icon/icons/setting-2.svg" alt="" />
               <p>Settings</p>
             </div>
@@ -757,8 +785,24 @@
     <!-- all sidebars code here start -->
 
     <!-- filter sidebar start -->
-    <div id="popSidebar">
+    <div class="shared-sidebar-wrapper" id="settingSidebar">
+      <div class="shared-sidebar-header">
+        <div class="shared-sidebar-cross-icon-and-text">
+          <img
+            src="assets/images/cross-icon.svg"
+            alt=""
+            id="closeBtnSettingSidebar"
+          />
+          <p>Setting</p>
+        </div>
+        <button class="shared-sidebar-save-btn">Save</button>
+      </div>
       <div class="input-area-pop-sidebar">
+        <div class="inputs-and-levels">
+          <label for="">Category</label>
+          <input type="text" placeholder="Enter Title (0/30)" />
+        </div>
+
         <div class="inputs-and-levels">
           <label for="">Category</label>
           <img

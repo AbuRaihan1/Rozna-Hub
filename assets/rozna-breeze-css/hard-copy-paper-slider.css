@@ -1,3 +1,10 @@
+#settingSidebar {
+
+}
+
+
+
+
 .course-list-popup {
   position: fixed;
   top: 50%;
@@ -94,7 +101,6 @@
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
-
 }
 
 .course-list {
