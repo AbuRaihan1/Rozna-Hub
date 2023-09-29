@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="assets/rozna-breeze-css/rozna-hard-copy-paper.css"
     />
+    <link rel="stylesheet" href="assets/css/popSidebar.css" />
+
+    <link rel="stylesheet" href="assets/css/popSidebar.css" />
+    <link rel="stylesheet" href="assets/rozna-breeze-css/shared-sidebar.css" />
 
     <title>Rozna - Hub</title>
   </head>
@@ -71,40 +75,46 @@
     <div class="main-wrapper-for-design-hard-copy">
       <div class="page-setting-text-etc-option-wrapper">
         <div class="icons-setting-area">
-          <div class="just-pages-and-settings-wrapper just-pages-and-settings-wrapper-with-text">
+          <div class="just-pages-and-settings-wrapper">
             <div class="icons-settings-area-inner setting-and-page-extra-style">
               <img src="assets/rozna-breeze-icon/icons/note-2.svg" alt="" />
               <p>pages</p>
             </div>
-            <div class="icons-settings-area-inner setting-and-page-extra-style">
+
+            <div
+              id="popSidebarSettingOpen"
+              class="icons-settings-area-inner setting-and-page-extra-style"
+            >
               <img src="assets/rozna-breeze-icon/icons/setting-2.svg" alt="" />
               <p>Settings</p>
             </div>
-          </div>
 
-          <div class="icons-settings-area-inner">
-            <div class="svg-photo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34"
-                height="34"
-                viewBox="0 0 34 34"
-                fill="none"
-              >
-                <path
-                  d="M16.9195 3.1875H17.081C20.0235 3.1875 22.3411 3.1875 24.1502 3.42975C26.0075 3.67908 27.4893 4.20183 28.6552 5.36492C30.4161 7.12158 30.732 9.6305 30.8128 13.1509C30.816 13.2904 30.7916 13.4292 30.7411 13.5594C30.6907 13.6895 30.615 13.8084 30.5186 13.9093C30.3239 14.113 30.0562 14.2311 29.7744 14.2375C29.6348 14.2407 29.4961 14.2163 29.3659 14.1658C29.2358 14.1154 29.1169 14.0398 29.016 13.9433C28.8122 13.7486 28.6942 13.4809 28.6878 13.1991C28.6056 9.60075 28.2401 7.95317 27.155 6.86942C26.4495 6.16533 25.4904 5.7545 23.8683 5.53775C22.2165 5.31533 20.0419 5.3125 17.0003 5.3125C13.9587 5.3125 11.7841 5.31533 10.1323 5.53633C8.51021 5.7545 7.55112 6.16533 6.84562 6.868C5.76046 7.95317 5.39496 9.60217 5.31279 13.2005C5.30953 13.34 5.27883 13.4776 5.22242 13.6052C5.16602 13.7329 5.08502 13.8482 4.98406 13.9445C4.8831 14.0409 4.76414 14.1164 4.63399 14.1668C4.50383 14.2172 4.36503 14.2415 4.2255 14.2382C4.08597 14.235 3.94845 14.2042 3.82078 14.1478C3.69312 14.0914 3.57782 14.0104 3.48146 13.9095C3.3851 13.8085 3.30957 13.6896 3.25918 13.5594C3.20879 13.4292 3.18453 13.2904 3.18779 13.1509C3.26854 9.6305 3.58446 7.123 5.34537 5.36492C6.51129 4.20183 7.99312 3.67908 9.85037 3.42975C11.6595 3.1875 13.9771 3.1875 16.9195 3.1875ZM4.22621 19.7625C4.36574 19.7593 4.50455 19.7836 4.63468 19.8341C4.76482 19.8845 4.88373 19.9602 4.98464 20.0566C5.08554 20.153 5.16646 20.2684 5.22277 20.3961C5.27907 20.5238 5.30966 20.6614 5.31279 20.8009C5.39496 24.3992 5.76046 26.0468 6.84562 27.1306C7.55112 27.8347 8.51021 28.2455 10.1323 28.4622C11.7841 28.6847 13.9587 28.6875 17.0003 28.6875C20.0419 28.6875 22.215 28.6847 23.8683 28.4637C25.4904 28.2455 26.4495 27.8347 27.155 27.132C28.2401 26.0468 28.6056 24.3978 28.6878 20.7995C28.6944 20.5177 28.8126 20.2501 29.0165 20.0555C29.2204 19.8609 29.4933 19.7552 29.7751 19.7618C30.0569 19.7684 30.3245 19.8866 30.5191 20.0905C30.7137 20.2944 30.8194 20.5673 30.8128 20.8491C30.732 24.3695 30.4161 26.877 28.6552 28.6351C27.4893 29.7982 26.0075 30.3209 24.1502 30.5702C22.3411 30.8125 20.0235 30.8125 17.081 30.8125H16.9195C13.9771 30.8125 11.6595 30.8125 9.85037 30.5702C7.99312 30.3209 6.51129 29.7982 5.34537 28.6351C3.58446 26.8784 3.26854 24.3695 3.18779 20.8491C3.18459 20.7095 3.20892 20.5707 3.25938 20.4406C3.30984 20.3105 3.38544 20.1916 3.48188 20.0907C3.57831 19.9897 3.69368 19.9088 3.82139 19.8525C3.94911 19.7962 4.08667 19.7656 4.22621 19.7625Z"
-                  fill="#364E79"
-                />
-                <path
-                  d="M10.2734 11.332C10.2734 11.0502 10.3854 10.78 10.5846 10.5807C10.7839 10.3815 11.0541 10.2695 11.3359 10.2695H22.6693C22.9511 10.2695 23.2213 10.3815 23.4206 10.5807C23.6198 10.78 23.7318 11.0502 23.7318 11.332C23.7318 11.6138 23.6198 11.8841 23.4206 12.0833C23.2213 12.2826 22.9511 12.3945 22.6693 12.3945H18.0651V22.6654C18.0651 22.9472 17.9532 23.2174 17.7539 23.4167C17.5546 23.6159 17.2844 23.7279 17.0026 23.7279C16.7208 23.7279 16.4506 23.6159 16.2513 23.4167C16.052 23.2174 15.9401 22.9472 15.9401 22.6654V12.3945H11.3359C11.0541 12.3945 10.7839 12.2826 10.5846 12.0833C10.3854 11.8841 10.2734 11.6138 10.2734 11.332ZM27.2734 16.9987C27.2734 16.7169 27.3854 16.4467 27.5846 16.2474C27.7839 16.0481 28.0541 15.9362 28.3359 15.9362H31.1693C31.4511 15.9362 31.7213 16.0481 31.9206 16.2474C32.1198 16.4467 32.2318 16.7169 32.2318 16.9987C32.2318 17.2805 32.1198 17.5507 31.9206 17.75C31.7213 17.9493 31.4511 18.0612 31.1693 18.0612H28.3359C28.0541 18.0612 27.7839 17.9493 27.5846 17.75C27.3854 17.5507 27.2734 17.2805 27.2734 16.9987ZM2.83594 15.9362C2.55415 15.9362 2.28389 16.0481 2.08464 16.2474C1.88538 16.4467 1.77344 16.7169 1.77344 16.9987C1.77344 17.2805 1.88538 17.5507 2.08464 17.75C2.28389 17.9493 2.55415 18.0612 2.83594 18.0612H5.66927C5.95106 18.0612 6.22131 17.9493 6.42057 17.75C6.61983 17.5507 6.73177 17.2805 6.73177 16.9987C6.73177 16.7169 6.61983 16.4467 6.42057 16.2474C6.22131 16.0481 5.95106 15.9362 5.66927 15.9362H2.83594Z"
-                  fill="#364E79"
-                />
-              </svg>
+            <div
+              class="icons-settings-area-inner setting-and-page-extra-style setting-and-page-extra-style-with-text"
+            >
+              <div class="svg-photo">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="34"
+                  height="34"
+                  viewBox="0 0 34 34"
+                  fill="none"
+                >
+                  <path
+                    d="M16.9195 3.1875H17.081C20.0235 3.1875 22.3411 3.1875 24.1502 3.42975C26.0075 3.67908 27.4893 4.20183 28.6552 5.36492C30.4161 7.12158 30.732 9.6305 30.8128 13.1509C30.816 13.2904 30.7916 13.4292 30.7411 13.5594C30.6907 13.6895 30.615 13.8084 30.5186 13.9093C30.3239 14.113 30.0562 14.2311 29.7744 14.2375C29.6348 14.2407 29.4961 14.2163 29.3659 14.1658C29.2358 14.1154 29.1169 14.0398 29.016 13.9433C28.8122 13.7486 28.6942 13.4809 28.6878 13.1991C28.6056 9.60075 28.2401 7.95317 27.155 6.86942C26.4495 6.16533 25.4904 5.7545 23.8683 5.53775C22.2165 5.31533 20.0419 5.3125 17.0003 5.3125C13.9587 5.3125 11.7841 5.31533 10.1323 5.53633C8.51021 5.7545 7.55112 6.16533 6.84562 6.868C5.76046 7.95317 5.39496 9.60217 5.31279 13.2005C5.30953 13.34 5.27883 13.4776 5.22242 13.6052C5.16602 13.7329 5.08502 13.8482 4.98406 13.9445C4.8831 14.0409 4.76414 14.1164 4.63399 14.1668C4.50383 14.2172 4.36503 14.2415 4.2255 14.2382C4.08597 14.235 3.94845 14.2042 3.82078 14.1478C3.69312 14.0914 3.57782 14.0104 3.48146 13.9095C3.3851 13.8085 3.30957 13.6896 3.25918 13.5594C3.20879 13.4292 3.18453 13.2904 3.18779 13.1509C3.26854 9.6305 3.58446 7.123 5.34537 5.36492C6.51129 4.20183 7.99312 3.67908 9.85037 3.42975C11.6595 3.1875 13.9771 3.1875 16.9195 3.1875ZM4.22621 19.7625C4.36574 19.7593 4.50455 19.7836 4.63468 19.8341C4.76482 19.8845 4.88373 19.9602 4.98464 20.0566C5.08554 20.153 5.16646 20.2684 5.22277 20.3961C5.27907 20.5238 5.30966 20.6614 5.31279 20.8009C5.39496 24.3992 5.76046 26.0468 6.84562 27.1306C7.55112 27.8347 8.51021 28.2455 10.1323 28.4622C11.7841 28.6847 13.9587 28.6875 17.0003 28.6875C20.0419 28.6875 22.215 28.6847 23.8683 28.4637C25.4904 28.2455 26.4495 27.8347 27.155 27.132C28.2401 26.0468 28.6056 24.3978 28.6878 20.7995C28.6944 20.5177 28.8126 20.2501 29.0165 20.0555C29.2204 19.8609 29.4933 19.7552 29.7751 19.7618C30.0569 19.7684 30.3245 19.8866 30.5191 20.0905C30.7137 20.2944 30.8194 20.5673 30.8128 20.8491C30.732 24.3695 30.4161 26.877 28.6552 28.6351C27.4893 29.7982 26.0075 30.3209 24.1502 30.5702C22.3411 30.8125 20.0235 30.8125 17.081 30.8125H16.9195C13.9771 30.8125 11.6595 30.8125 9.85037 30.5702C7.99312 30.3209 6.51129 29.7982 5.34537 28.6351C3.58446 26.8784 3.26854 24.3695 3.18779 20.8491C3.18459 20.7095 3.20892 20.5707 3.25938 20.4406C3.30984 20.3105 3.38544 20.1916 3.48188 20.0907C3.57831 19.9897 3.69368 19.9088 3.82139 19.8525C3.94911 19.7962 4.08667 19.7656 4.22621 19.7625Z"
+                    fill="#364E79"
+                  />
+                  <path
+                    d="M10.2734 11.332C10.2734 11.0502 10.3854 10.78 10.5846 10.5807C10.7839 10.3815 11.0541 10.2695 11.3359 10.2695H22.6693C22.9511 10.2695 23.2213 10.3815 23.4206 10.5807C23.6198 10.78 23.7318 11.0502 23.7318 11.332C23.7318 11.6138 23.6198 11.8841 23.4206 12.0833C23.2213 12.2826 22.9511 12.3945 22.6693 12.3945H18.0651V22.6654C18.0651 22.9472 17.9532 23.2174 17.7539 23.4167C17.5546 23.6159 17.2844 23.7279 17.0026 23.7279C16.7208 23.7279 16.4506 23.6159 16.2513 23.4167C16.052 23.2174 15.9401 22.9472 15.9401 22.6654V12.3945H11.3359C11.0541 12.3945 10.7839 12.2826 10.5846 12.0833C10.3854 11.8841 10.2734 11.6138 10.2734 11.332ZM27.2734 16.9987C27.2734 16.7169 27.3854 16.4467 27.5846 16.2474C27.7839 16.0481 28.0541 15.9362 28.3359 15.9362H31.1693C31.4511 15.9362 31.7213 16.0481 31.9206 16.2474C32.1198 16.4467 32.2318 16.7169 32.2318 16.9987C32.2318 17.2805 32.1198 17.5507 31.9206 17.75C31.7213 17.9493 31.4511 18.0612 31.1693 18.0612H28.3359C28.0541 18.0612 27.7839 17.9493 27.5846 17.75C27.3854 17.5507 27.2734 17.2805 27.2734 16.9987ZM2.83594 15.9362C2.55415 15.9362 2.28389 16.0481 2.08464 16.2474C1.88538 16.4467 1.77344 16.7169 1.77344 16.9987C1.77344 17.2805 1.88538 17.5507 2.08464 17.75C2.28389 17.9493 2.55415 18.0612 2.83594 18.0612H5.66927C5.95106 18.0612 6.22131 17.9493 6.42057 17.75C6.61983 17.5507 6.73177 17.2805 6.73177 16.9987C6.73177 16.7169 6.61983 16.4467 6.42057 16.2474C6.22131 16.0481 5.95106 15.9362 5.66927 15.9362H2.83594Z"
+                    fill="#364E79"
+                  />
+                </svg>
+              </div>
+              <p>Text</p>
             </div>
-            <p>Text</p>
           </div>
 
-          <div class="icons-settings-area-inner">
+          <div class="icons-settings-area-inner" id="component30sidebarOpenBtn">
             <div class="svg-photo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +156,7 @@
             <p>Video</p>
           </div>
 
-          <div class="icons-settings-area-inner">
+          <div class="icons-settings-area-inner" id="addAudioOpenBtn">
             <div class="svg-photo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +191,7 @@
             <p>Audio</p>
           </div>
 
-          <div class="icons-settings-area-inner">
+          <div class="icons-settings-area-inner" id="addImgOpenBtn">
             <div class="svg-photo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -222,7 +232,7 @@
             <p>Image</p>
           </div>
 
-          <div class="icons-settings-area-inner">
+          <div class="icons-settings-area-inner" id="addQuizOpenBtn">
             <div class="svg-photo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +257,7 @@
             <p>Quiz</p>
           </div>
 
-          <div class="icons-settings-area-inner">
+          <div class="icons-settings-area-inner" id="roznaSpaceOpenBtn">
             <div class="svg-photo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -746,6 +756,351 @@
       </div>
     </div>
 
+    <!-- all sidebars code here start -->
+
+    <!-- filter sidebar start -->
+    <div id="popSidebar">
+      <div class="input-area-pop-sidebar">
+        <div class="inputs-and-levels">
+          <label for="">Category</label>
+          <img
+            src="assets/images/bttom-arrow-icon.svg"
+            alt=""
+            class="arrow-icon-in-select-input"
+          />
+          <select name="" id="">
+            <option value="">-</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+            <option value="">option4</option>
+          </select>
+        </div>
+        <div class="inputs-and-levels">
+          <label for="">Level</label>
+          <img
+            src="assets/images/bttom-arrow-icon.svg"
+            alt=""
+            class="arrow-icon-in-select-input"
+          />
+          <select name="" id="">
+            <option value="">-</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+            <option value="">option4</option>
+          </select>
+        </div>
+        <div class="inputs-and-levels">
+          <label for="">Type</label>
+          <img
+            src="assets/images/bttom-arrow-icon.svg"
+            alt=""
+            class="arrow-icon-in-select-input"
+          />
+          <select name="" id="">
+            <option value="">-</option>
+            <option value="">option2</option>
+            <option value="">option3</option>
+            <option value="">option4</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div id="popSidebarOverlay"></div>
+    <!-- filter sidebar end -->
+
+
+    <!--component 29 sidebar start  -->
+    <div class="shared-sidebar-wrapper" id="shared-sidebar-wrapper">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="closeBtnPopSidebar"
+              />
+              <p>Content</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+
+          <div class="post-content-shared-sidebar">
+            <div class="text-edit-action">
+              <p>
+                Paragraph
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="10"
+                  viewBox="0 0 13 10"
+                  fill="none"
+                >
+                  <path
+                    d="M6.25507 9.17578C5.99978 9.17449 5.74798 9.11639 5.51794 9.0057C5.28789 8.895 5.08537 8.73448 4.92507 8.53578L0.715074 3.43578C0.469068 3.12875 0.31426 2.75879 0.268291 2.36805C0.222322 1.97731 0.287041 1.58152 0.455074 1.22578C0.591354 0.916608 0.813747 0.653195 1.09569 0.467004C1.37764 0.280813 1.70722 0.179714 2.04507 0.175781H10.4651C10.8029 0.179714 11.1325 0.280813 11.4145 0.467004C11.6964 0.653195 11.9188 0.916608 12.0551 1.22578C12.2231 1.58152 12.2878 1.97731 12.2419 2.36805C12.1959 2.75879 12.0411 3.12875 11.7951 3.43578L7.58507 8.53578C7.42478 8.73448 7.22226 8.895 6.99221 9.0057C6.76217 9.11639 6.51036 9.17449 6.25507 9.17578Z"
+                    fill="#364E79"
+                  />
+                </svg>
+              </p>
+
+              <div class="text-edit-actions-bold-italic-etc">
+                <img
+                  src="assets/rozna-breeze-icon/icons/foundation_bold.svg"
+                  alt=""
+                />
+
+                <img
+                  src="assets/rozna-breeze-icon/icons/fa6-solid_italic.svg"
+                  alt=""
+                />
+
+                <img
+                  src="assets/rozna-breeze-icon/icons/charm_link.svg"
+                  alt=""
+                />
+                <img
+                  src="assets/rozna-breeze-icon/icons/fluent_text-bullet-list-ltr-20-filled.svg"
+                  alt=""
+                />
+                <img
+                  src="assets/rozna-breeze-icon/icons/fluent_text-number-list-ltr-24-regular.svg"
+                  alt=""
+                />
+
+                <img
+                  src="assets/rozna-breeze-icon/icons/gallery-add.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <textarea
+            class="write-some-thing-about-post"
+            placeholder="Write About Post..."
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <!-- component 29 sidebar end  -->
+
+
+    <!-- component 30 sidebar start  -->
+    <div class="shared-sidebar-wrapper" id="shared-sidebar-wrapper-compo-30">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="closeBtnPopSidebarComponent30"
+              />
+              <p>URL</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+
+          <div class="add-url-input-shared-sidebar">
+            <input type="text" placeholder="Enter Your URL" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- component 30 sidebar end  -->
+
+
+    <!-- component 31 add audio sidebar start  -->
+    <div class="shared-sidebar-wrapper" id="addAudioSidebar">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="addAudioCloseBtn"
+              />
+              <p>Add Audio</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+          <div class="choose-audio-file">Choose audio file</div>
+          <div class="photo-add-section-in-shared-sidebar">
+            <div class="add-img-icon-and-text">
+              <img
+                src="assets/rozna-breeze-icon/icons/upload-audio-icon.svg"
+                alt=""
+              />
+              <p>Upload Audio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- component 31 add audio sidebar end  -->
+
+
+    <!-- compnent 33 add quiz sidebar start  -->
+    <div class="shared-sidebar-wrapper" id="addQuizSidebar">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="addQuizCloseBtn"
+              />
+              <p>Add Quiz</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- compnent 33 add quiz sidebar end  -->
+
+    <!-- compnent 54 add razna space sidebar end  -->
+    <div class="shared-sidebar-wrapper" id="addRoznaSpaceSidebar">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="roznaSpaceCloseBtn"
+              />
+              <p>Add Rozna Space</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+
+          <div class="enable-interactivity-toogle">
+            <p>Enable Interactivity</p>
+            <label class="toggle-switch">
+              <input type="checkbox" id="toggleButton" />
+              <span class="toggle-handle"></span>
+            </label>
+          </div>
+
+          <div class="testing-required-card-shared-sidebar">
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="testing-required-card">
+                  <img src="assets/images/testing-required.jpg" alt="" />
+                  <h5>Testing Required</h5>
+                  <p>Wall Space</p>
+                  <p>1 April 2022</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // JavaScript to handle toggle functionality
+      const toggleButton = document.getElementById("toggleButton");
+      const toggleHandle = document.querySelector(".toggle-handle");
+
+      toggleButton.addEventListener("change", function () {
+        if (toggleButton.checked) {
+          toggleHandle.style.transform = "translateX(36.29px)";
+        } else {
+          toggleHandle.style.transform = "translateX(0)";
+        }
+      });
+    </script>
+    <!-- compnent 54 add razna space sidebar end  -->
+
+
+    <!-- add image component 54 sidebar start  -->
+    <div class="shared-sidebar-wrapper" id="addImgSidebar">
+      <div class="shared-sidebar">
+        <div class="shared-sidebar-content">
+          <div class="shared-sidebar-header">
+            <div class="shared-sidebar-cross-icon-and-text">
+              <img
+                src="assets/images/cross-icon.svg"
+                alt=""
+                id="addImgCloseBtn"
+              />
+              <p>Add Image</p>
+            </div>
+            <button class="shared-sidebar-save-btn">Save</button>
+          </div>
+
+          <div class="photo-add-section-in-shared-sidebar">
+            <div class="add-img-icon-and-text">
+              <img
+                src="assets/rozna-breeze-icon/icons/gallery-add.svg"
+                alt=""
+              />
+              <p>Add Image</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="export-and-search-btn">
+          <button>
+            <img src="assets/images/search-icon.svg" alt="" />
+            Search
+          </button>
+          <button>
+            <img src="assets/rozna-breeze-icon/icons/export.svg" alt="" />
+            Upload
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- add image component 54 sidebar end  -->
+
+    
+    <!-- all sidebars code here end -->
+
     <!-- course-list-popup-start  -->
     <!-- <div>
       <div class="course-list-popup">
@@ -856,5 +1211,7 @@
       <div id="courseListOverlay" class="courseListOverlay"></div>
     </div> -->
     <!-- course-list-popup-end  -->
+
+    <script src="assets/js/shared-sidebar-open-close.js"></script>
   </body>
 </html>

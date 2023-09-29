@@ -2,20 +2,62 @@ body {
   margin: 0;
   padding: 0;
 }
-.shared-sidebar-wrapper {
-  position: relative;
+
+/* shared sidebar open close functions id  */
+
+/* component 29 */
+#shared-sidebar-wrapper {
+  display: none;
 }
 
-.shared-sidebar {
-  background: white;
-  overflow: auto;
+#shared-sidebar-wrapper-compo-30 {
+  display: none;
+}
+
+#addAudioSidebar {
+  display: none;
+}
+
+#addImgSidebar {
+  display: none;
+}
+
+#addQuizSidebar {
+  display: none;
+}
+
+#addRoznaSpaceSidebar {
+  display: none;
+}
+
+.shared-sidebar-wrapper {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right: -586px; /* Start with the sidebar hidden */
   width: 586px;
-  height: 100%;
+  background-color: white;
+  z-index: 2;
+  transition: right 0.3s ease-in-out;
+  overflow: auto;
   height: 990px;
-  position: absolute;
   right: 0;
   padding: 60px 50px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#popSidebarOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1;
+}
+
+.shared-sidebar {
 }
 
 .shared-sidebar-header {
@@ -228,6 +270,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
+  border: 2px solid red;
 }
 
 .text-edit-action p {
@@ -264,18 +307,19 @@ body {
 .text-edit-actions-bold-italic-etc img {
   cursor: pointer;
 }
+
 @media screen and (max-width: 768px) {
-  .shared-sidebar-wrapper {
+  /* .shared-sidebar-wrapper {
     width: 90% !important;
     position: absolute;
     right: 0;
-  }
+  } */
 
-  .shared-sidebar {
+  /* .shared-sidebar {
     right: 0 !important;
     width: 90% !important;
     padding: 60px 20px;
-  }
+  } */
 
   .shared-sidebar-cross-icon-and-text p {
     font-size: 18px;

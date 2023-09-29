@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const openButton = document.getElementById("resourcesBtn");
+  const openButton = document.getElementById("popSidebarSettingOpen");
   const sidebar = document.getElementById("createResourceSidebar");
   const closeBtnPopSidebar = document.getElementById(
     "closeBtnCreateResourceSidebar"

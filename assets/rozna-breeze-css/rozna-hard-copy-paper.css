@@ -96,6 +96,7 @@ body {
 .icons-settings-area-inner {
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .icons-settings-area-inner p {
@@ -176,6 +177,11 @@ body {
   /* width: 400px !important; */
   margin-right: 40px !important;
 }
+
+.just-pages-and-settings-wrapper-with-text {
+  margin-right: 10px !important;
+}
+
 .design-hard-test-user-icons-inner-wrapper {
   display: flex;
   gap: 25px;
