@@ -1,3 +1,4 @@
+// open pages box start 
 document.addEventListener("DOMContentLoaded", function () {
   var openBoxButton = document.getElementById("openBoxButton");
   var pagesPreviewBox = document.querySelector(".pages-preview-box");
@@ -21,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+// open pages box close 
 
 // setting sidebar open
 document.addEventListener("DOMContentLoaded", function () {

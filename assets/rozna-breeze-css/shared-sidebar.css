@@ -35,15 +35,7 @@ body {
 }
 
 /* open pages box code start  */
-/* .open-pages-popupBox {
-  position: relative;
-} */
-
-/* .pages-preview-box-wrapper {
-  position: relative;
-} */
-
-.open-pages-popupBox-wrapper {
+ .open-pages-popupBox-wrapper {
   position: relative;
 }
 
@@ -52,19 +44,18 @@ body {
   height: auto;
   background: #eff3fc;
   box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.07);
-  position: absolute;
-  top: 105px;
+  position: fixed;
+  top: 242px;
   /* right: 10px; */
-  /* display: none; */
+  display: none;
   padding: 30px 60px;
   left:0px;
-  z-index: 9999 !important;
 }
 
 .triangle {
   position: absolute;
   top: -10px;
-  left: 13%;
+  left: 22%;
   margin-left: -10px;
   width: 0;
   height: 0;
